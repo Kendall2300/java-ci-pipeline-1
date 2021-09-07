@@ -1,6 +1,10 @@
-languaje: java
-
+language: java
 addons:
   apt:
     packages:
-      ant
+      - openjdk-8-jdk
+jdk:
+  - oraclejdk9
+  - oraclejdk8
+  - openjdk7
+  - openjdk6
