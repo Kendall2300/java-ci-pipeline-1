@@ -1,1 +1,6 @@
 languaje: java
+
+addons:
+  apt:
+    packages:
+      ant
