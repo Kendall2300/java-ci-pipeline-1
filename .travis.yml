@@ -1,19 +1,5 @@
 languaje: java
-java:
-- 1.8.0_271
-cache: yarn
+jdk:
+- openjdk8
 
-install:
- - yarn install
- 
-script:
- - yarn test
- - yarn run build
- 
-deploy:
- provider: pages
- skip-cleanup: true
- github-token: $GITHB_TOKEN
- on:
-  branch: gh-pages
-
+script: ./mvnw clean install
