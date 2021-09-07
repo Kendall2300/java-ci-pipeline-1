@@ -1,4 +1,4 @@
 languaje: java
 jdk:
 - openjdk8
-install: ant deps
+install: ant test
